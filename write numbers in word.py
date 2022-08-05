@@ -57,6 +57,6 @@ num = -1
 while num <= 0:
     num = int(input("Enter a positive number: "))
     if num <= 0:
-        print("I said posiitve!")
+        print("I said positive!")
     else:
         print("in word: " + inWord(num))

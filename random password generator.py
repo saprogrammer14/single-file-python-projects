@@ -4,13 +4,13 @@ import random
 def random_password(length):
     chars = [str(x) for x in range(10)]  # numbers
 
-    # adding lowercase latters
+    # adding lowercase letters
     start = "a"
     for i in range(26):
         chars.append(start)
         start = chr(ord(start) + 1)
 
-    # adding UPPERcase latters
+    # adding UPPERcase letters
     start = "A"
     for i in range(26):
         chars.append(start)
